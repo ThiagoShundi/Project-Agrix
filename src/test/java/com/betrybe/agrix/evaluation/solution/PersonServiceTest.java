@@ -3,9 +3,9 @@ package com.betrybe.agrix.evaluation.solution;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.betrybe.agrix.ebytr.staff.entity.Person;
-import com.betrybe.agrix.ebytr.staff.security.Role;
-import com.betrybe.agrix.ebytr.staff.service.PersonService;
+import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.security.Role;
+import com.betrybe.agrix.service.PersonService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
