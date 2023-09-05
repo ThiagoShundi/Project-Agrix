@@ -1,7 +1,7 @@
 package com.betrybe.agrix.service;
 
-import com.betrybe.agrix.model.entities.Farm;
-import com.betrybe.agrix.model.entities.repositories.FarmRepository;
+import com.betrybe.agrix.entity.Farm;
+import com.betrybe.agrix.repository.FarmRepository;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

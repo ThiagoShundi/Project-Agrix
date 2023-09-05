@@ -1,9 +1,9 @@
 package com.betrybe.agrix.service;
 
-import com.betrybe.agrix.model.entities.Crop;
-import com.betrybe.agrix.model.entities.Fertilizer;
-import com.betrybe.agrix.model.entities.repositories.CropRepository;
-import com.betrybe.agrix.model.entities.repositories.FertilizerRepository;
+import com.betrybe.agrix.entity.Crop;
+import com.betrybe.agrix.entity.Fertilizer;
+import com.betrybe.agrix.repository.CropRepository;
+import com.betrybe.agrix.repository.FertilizerRepository;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,14 +1,14 @@
-package com.betrybe.agrix.model.entities;
+package com.betrybe.agrix.entity;
 
 import com.betrybe.agrix.security.Role;
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
-import javax.persistence.Entity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

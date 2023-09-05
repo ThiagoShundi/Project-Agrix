@@ -3,7 +3,7 @@ package com.betrybe.agrix.evaluation.solution;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.entity.Person;
 import com.betrybe.agrix.security.Role;
 import com.betrybe.agrix.service.PersonService;
 import org.junit.jupiter.api.Test;

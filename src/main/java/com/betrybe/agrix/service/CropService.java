@@ -1,10 +1,7 @@
 package com.betrybe.agrix.service;
 
-import com.betrybe.agrix.model.entities.Crop;
-import com.betrybe.agrix.model.entities.Farm;
-import com.betrybe.agrix.model.entities.Fertilizer;
-import com.betrybe.agrix.model.entities.repositories.CropRepository;
-import com.betrybe.agrix.model.entities.repositories.FarmRepository;
+import com.betrybe.agrix.entity.Crop;
+import com.betrybe.agrix.repository.CropRepository;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

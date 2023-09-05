@@ -1,4 +1,4 @@
-package com.betrybe.agrix.model.entities;
+package com.betrybe.agrix.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

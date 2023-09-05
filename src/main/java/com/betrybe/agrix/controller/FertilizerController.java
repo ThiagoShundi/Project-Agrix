@@ -1,7 +1,7 @@
 package com.betrybe.agrix.controller;
 
 import com.betrybe.agrix.dto.FertilizerDto;
-import com.betrybe.agrix.model.entities.Fertilizer;
+import com.betrybe.agrix.entity.Fertilizer;
 import com.betrybe.agrix.service.FertilizerService;
 import java.util.List;
 import java.util.Optional;

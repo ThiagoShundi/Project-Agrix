@@ -2,9 +2,9 @@ package com.betrybe.agrix.controller;
 
 import com.betrybe.agrix.dto.CropDto;
 import com.betrybe.agrix.dto.FertilizerDto;
-import com.betrybe.agrix.model.entities.Crop;
-import com.betrybe.agrix.model.entities.Farm;
-import com.betrybe.agrix.model.entities.Fertilizer;
+import com.betrybe.agrix.entity.Crop;
+import com.betrybe.agrix.entity.Farm;
+import com.betrybe.agrix.entity.Fertilizer;
 import com.betrybe.agrix.service.CropService;
 import com.betrybe.agrix.service.FarmService;
 import com.betrybe.agrix.service.FertilizerService;

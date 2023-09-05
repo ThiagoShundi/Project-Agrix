@@ -2,7 +2,7 @@ package com.betrybe.agrix.controller;
 
 
 import com.betrybe.agrix.dto.PersonDto;
-import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.entity.Person;
 import com.betrybe.agrix.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,9 +29,9 @@ public class PersonController {
    * Método createFertilizer.
    */
   @PostMapping()
-  public ResponseEntity<PersonDto> createPerson(@RequestBody PersonDto personDto) {
+  public ResponseEntity<?> createPerson(@RequestBody PersonDto personDto) {
     Person newPerson = personService.create(personDto.toEntity());
-    PersonDto response = PersonDto.fromEntity(newPerson);
+    PersonDto.ToResponse response = PersonDto.ToResponse.fromEntity(newPerson);
 
     return ResponseEntity.status(HttpStatus.CREATED).body(response);
 

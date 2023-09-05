@@ -1,18 +1,14 @@
 package com.betrybe.agrix.dto;
 
 
-import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.entity.Person;
 import com.betrybe.agrix.security.Role;
 
 
 /**
  * DTO PersonDto.
  */
-public record PersonDto(Long id, String username, String password, Role role) {
-  public static PersonDto fromEntity(Person person) {
-    return new PersonDto(person.getId(), person.getUsername(), person.getPassword(),
-        person.getRole());
-  }
+public record PersonDto(String username, String password, Role role) {
 
   /**
    * toEntity.
@@ -24,5 +20,18 @@ public record PersonDto(Long id, String username, String password, Role role) {
     person.setRole(role);
 
     return person;
+  }
+
+  /**
+   * ToResponse.
+   */
+  public static record ToResponse(Long id, String username, Role role) {
+
+    /**
+     * fromEntity.
+     */
+    public static ToResponse fromEntity(Person person) {
+      return new ToResponse(person.getId(), person.getUsername(), person.getRole());
+    }
   }
 }

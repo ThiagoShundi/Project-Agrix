@@ -1,6 +1,6 @@
-package com.betrybe.agrix.model.entities.repositories;
+package com.betrybe.agrix.repository;
 
-import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.entity.Person;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

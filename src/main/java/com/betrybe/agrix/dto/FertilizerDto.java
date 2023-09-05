@@ -1,6 +1,6 @@
 package com.betrybe.agrix.dto;
 
-import com.betrybe.agrix.model.entities.Fertilizer;
+import com.betrybe.agrix.entity.Fertilizer;
 
 /**
  * DTO FertilizerDto.
