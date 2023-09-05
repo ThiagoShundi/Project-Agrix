@@ -2,7 +2,6 @@ package com.betrybe.agrix.controller;
 
 import com.betrybe.agrix.dto.AuthDto;
 import com.betrybe.agrix.dto.AuthResponseDto;
-import com.betrybe.agrix.dto.ResponseDto;
 import com.betrybe.agrix.entity.Person;
 import com.betrybe.agrix.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
